@@ -406,6 +406,7 @@
         <direccion_Persona rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ambato</direccion_Persona>
         <fechaNacimiento_Persona rdf:datatype="http://www.w3.org/2001/XMLSchema#string">09/01/1997</fechaNacimiento_Persona>
         <nombres_Persona rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Darex Gustavo</nombres_Persona>
+        <numPostulaciones_Aspirante rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</numPostulaciones_Aspirante>
         <numTlf_Persona rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0987638245</numTlf_Persona>
     </owl:NamedIndividual>
     
@@ -418,7 +419,29 @@
         <Postular rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Reg2"/>
         <Rendir rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#EAES2"/>
         <apellidos_Persona rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Espinoza Andrade</apellidos_Persona>
+        <cedula_Persona rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1724529335</cedula_Persona>
+        <direccion_Persona rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quito</direccion_Persona>
+        <fechaNacimiento_Persona rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26/07/1996</fechaNacimiento_Persona>
         <nombres_Persona rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jairo Hernán</nombres_Persona>
+        <numPostulaciones_Aspirante rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</numPostulaciones_Aspirante>
+        <numTlf_Persona rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0990663256</numTlf_Persona>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Asp3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Asp3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Aspirante"/>
+        <Postular rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Reg3"/>
+        <Rendir rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#EAES3"/>
+        <apellidos_Persona rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macías Pincay</apellidos_Persona>
+        <cedula_Persona rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1702650459</cedula_Persona>
+        <direccion_Persona rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manta</direccion_Persona>
+        <fechaNacimiento_Persona rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20/03/1996</fechaNacimiento_Persona>
+        <nombres_Persona rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marco Andrés</nombres_Persona>
+        <numPostulaciones_Aspirante rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</numPostulaciones_Aspirante>
+        <numTlf_Persona rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0979139066</numTlf_Persona>
     </owl:NamedIndividual>
     
 
@@ -442,7 +465,39 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#CarUni2">
         <rdf:type rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#CarreraUniversitaria"/>
         <PerteneceSede rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Sede1"/>
+        <cupos_Carrera rdf:datatype="http://www.w3.org/2001/XMLSchema#string">250</cupos_Carrera>
         <nombre_Carrera rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingeniería en Mecatrónica</nombre_Carrera>
+        <perfilProfesional_Carrera rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingeniero Mecatrónico</perfilProfesional_Carrera>
+        <puntajeMinimo_Carrera rdf:datatype="http://www.w3.org/2001/XMLSchema#string">830/1000</puntajeMinimo_Carrera>
+        <semestres_Carrera rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</semestres_Carrera>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#CarUni3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#CarUni3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#CarreraUniversitaria"/>
+        <PerteneceSede rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Sede2"/>
+        <cupos_Carrera rdf:datatype="http://www.w3.org/2001/XMLSchema#string">250</cupos_Carrera>
+        <nombre_Carrera rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finanzas</nombre_Carrera>
+        <perfilProfesional_Carrera rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Administración en Finanzas</perfilProfesional_Carrera>
+        <puntajeEAES_Registro rdf:datatype="http://www.w3.org/2001/XMLSchema#string">750/1000</puntajeEAES_Registro>
+        <semestres_Carrera rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</semestres_Carrera>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#CarUni4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#CarUni4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#CarreraUniversitaria"/>
+        <PerteneceSede rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Sede3"/>
+        <cupos_Carrera rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100</cupos_Carrera>
+        <nombre_Carrera rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medicina</nombre_Carrera>
+        <perfilProfesional_Carrera rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Médico</perfilProfesional_Carrera>
+        <puntajeMinimo_Carrera rdf:datatype="http://www.w3.org/2001/XMLSchema#string">950/1000</puntajeMinimo_Carrera>
+        <semestres_Carrera rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12</semestres_Carrera>
     </owl:NamedIndividual>
     
 
@@ -466,7 +521,25 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#EAES2">
         <rdf:type rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#EAES"/>
         <TieneResultado rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Reg2"/>
+        <aula_Eaes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3ro &quot;A&quot;</aula_Eaes>
+        <ciudad_Eaes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quito</ciudad_Eaes>
+        <fecha_Eaes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15/02/2021</fecha_Eaes>
+        <inscripcion_Eaes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Segunda</inscripcion_Eaes>
         <institucion_Eaes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Colegio Benigno Malo</institucion_Eaes>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#EAES3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#EAES3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#EAES"/>
+        <TieneResultado rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Reg3"/>
+        <aula_Eaes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4to</aula_Eaes>
+        <ciudad_Eaes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quito</ciudad_Eaes>
+        <fecha_Eaes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22/02/2021</fecha_Eaes>
+        <inscripcion_Eaes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primera</inscripcion_Eaes>
+        <institucion_Eaes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Colegio Americano de Quito</institucion_Eaes>
     </owl:NamedIndividual>
     
 
@@ -476,7 +549,31 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Post1">
         <rdf:type rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Postulacion"/>
         <TieneUniversidades rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Uni1"/>
+        <TieneUniversidades rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Uni2"/>
+        <TieneUniversidades rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Uni3"/>
         <id_Postulacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</id_Postulacion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Post2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Post2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Postulacion"/>
+        <TieneUniversidades rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Uni1"/>
+        <TieneUniversidades rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Uni2"/>
+        <TieneUniversidades rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Uni3"/>
+        <id_Postulacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</id_Postulacion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Post3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Post3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Postulacion"/>
+        <TieneUniversidades rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Uni3"/>
+        <id_Postulacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</id_Postulacion>
     </owl:NamedIndividual>
     
 
@@ -496,9 +593,20 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Reg2">
         <rdf:type rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Registro"/>
-        <TieneOpciones rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Post1"/>
+        <TieneOpciones rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Post2"/>
         <puntajeEAES_Registro rdf:datatype="http://www.w3.org/2001/XMLSchema#string">910/1000</puntajeEAES_Registro>
         <tituloBachiller_Registro rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Físico Matemático</tituloBachiller_Registro>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Reg3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Reg3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Registro"/>
+        <TieneOpciones rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Post3"/>
+        <puntajeEAES_Registro rdf:datatype="http://www.w3.org/2001/XMLSchema#string">980/1000</puntajeEAES_Registro>
+        <tituloBachiller_Registro rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Químico Biólogo</tituloBachiller_Registro>
     </owl:NamedIndividual>
     
 
@@ -510,6 +618,26 @@
         <SedeTieneCarrerasUniv rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#CarUni1"/>
         <SedeTieneCarrerasUniv rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#CarUni2"/>
         <nombre_Sede rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Belisario Quevedo</nombre_Sede>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Sede2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Sede2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Sede"/>
+        <SedeTieneCarrerasUniv rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#CarUni3"/>
+        <nombre_Sede rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Huachi</nombre_Sede>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Sede3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Sede3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Sede"/>
+        <SedeTieneCarrerasUniv rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#CarUni4"/>
+        <nombre_Sede rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UIO Norte</nombre_Sede>
     </owl:NamedIndividual>
     
 
@@ -531,7 +659,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Uni2">
         <rdf:type rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Universidad"/>
+        <TieneSedes rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Sede2"/>
+        <ciudad_Universidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ambato</ciudad_Universidad>
+        <direccion_Universidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juan Montalvo</direccion_Universidad>
         <nombre_Universidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidad Técnica de Ambato</nombre_Universidad>
+        <provincia_Universidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tungurahua</provincia_Universidad>
     </owl:NamedIndividual>
     
 
@@ -540,7 +672,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Uni3">
         <rdf:type rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Universidad"/>
+        <TieneSedes rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Sede3"/>
+        <ciudad_Universidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quito</ciudad_Universidad>
+        <direccion_Universidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Av. Ladrón de Guevara 253</direccion_Universidad>
         <nombre_Universidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escuela Politécnica Nacional</nombre_Universidad>
+        <provincia_Universidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pichincha</provincia_Universidad>
     </owl:NamedIndividual>
 </rdf:RDF>
 
