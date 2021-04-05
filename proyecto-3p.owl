@@ -1,0 +1,550 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#"
+     xml:base="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-28="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#PerteneceSede -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#PerteneceSede">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#SedeTieneCarrerasUniv"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#CarreraUniversitaria"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Sede"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Postular -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Postular">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Aspirante"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Registro"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Rendir -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Rendir">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Aspirante"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#EAES"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#SedeTieneCarrerasUniv -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#SedeTieneCarrerasUniv">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Sede"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#CarreraUniversitaria"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#TieneOpciones -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#TieneOpciones">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Registro"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Postulacion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#TieneResultado -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#TieneResultado">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#EAES"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Registro"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#TieneSedes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#TieneSedes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Universidad"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Sede"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#TieneUniversidades -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#TieneUniversidades">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Postulacion"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Universidad"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#apellidos_Persona -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#apellidos_Persona">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Aspirante"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#aula_Eaes -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#aula_Eaes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#EAES"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#cedula_Persona -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#cedula_Persona">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Aspirante"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#ciudad_Eaes -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#ciudad_Eaes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#EAES"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#ciudad_Universidad -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#ciudad_Universidad">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Universidad"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#cupos_Carrera -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#cupos_Carrera">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#CarreraUniversitaria"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#direccion_Persona -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#direccion_Persona">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Aspirante"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#direccion_Universidad -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#direccion_Universidad">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Universidad"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#fechaNacimiento_Persona -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#fechaNacimiento_Persona">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Aspirante"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#fecha_Eaes -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#fecha_Eaes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#EAES"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#id_Postulacion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#id_Postulacion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Postulacion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#inscripcion_Eaes -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#inscripcion_Eaes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#EAES"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#institucion_Eaes -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#institucion_Eaes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#EAES"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#nombre_Carrera -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#nombre_Carrera">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#CarreraUniversitaria"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#nombre_Sede -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#nombre_Sede">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Sede"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#nombre_Universidad -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#nombre_Universidad">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Universidad"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#nombres_Persona -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#nombres_Persona">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Aspirante"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#numPostulaciones_Aspirante -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#numPostulaciones_Aspirante">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Aspirante"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#numTlf_Persona -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#numTlf_Persona">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Aspirante"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#perfilProfesional_Carrera -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#perfilProfesional_Carrera">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#CarreraUniversitaria"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#provincia_Universidad -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#provincia_Universidad">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Universidad"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#puntajeEAES_Registro -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#puntajeEAES_Registro">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Registro"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#puntajeMinimo_Carrera -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#puntajeMinimo_Carrera">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#CarreraUniversitaria"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#semestres_Carrera -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#semestres_Carrera">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#CarreraUniversitaria"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#tituloBachiller_Registro -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#tituloBachiller_Registro">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Registro"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Aspirante -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Aspirante"/>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#CarreraUniversitaria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#CarreraUniversitaria"/>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#EAES -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#EAES"/>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Postulacion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Postulacion"/>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Registro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Registro"/>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Sede -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Sede"/>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Universidad -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Universidad"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Asp1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Asp1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Aspirante"/>
+        <Postular rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Reg1"/>
+        <Rendir rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#EAES1"/>
+        <apellidos_Persona rdf:datatype="http://www.w3.org/2001/XMLSchema#string">León Rosero</apellidos_Persona>
+        <cedula_Persona rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1803660149</cedula_Persona>
+        <direccion_Persona rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ambato</direccion_Persona>
+        <fechaNacimiento_Persona rdf:datatype="http://www.w3.org/2001/XMLSchema#string">09/01/1997</fechaNacimiento_Persona>
+        <nombres_Persona rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Darex Gustavo</nombres_Persona>
+        <numTlf_Persona rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0987638245</numTlf_Persona>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Asp2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Asp2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Aspirante"/>
+        <Postular rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Reg2"/>
+        <Rendir rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#EAES2"/>
+        <apellidos_Persona rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Espinoza Andrade</apellidos_Persona>
+        <nombres_Persona rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jairo Hernán</nombres_Persona>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#CarUni1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#CarUni1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#CarreraUniversitaria"/>
+        <PerteneceSede rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Sede1"/>
+        <cupos_Carrera rdf:datatype="http://www.w3.org/2001/XMLSchema#string">150</cupos_Carrera>
+        <nombre_Carrera rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingeniería en Software</nombre_Carrera>
+        <perfilProfesional_Carrera rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingeniero en Software</perfilProfesional_Carrera>
+        <puntajeMinimo_Carrera rdf:datatype="http://www.w3.org/2001/XMLSchema#string">850/1000</puntajeMinimo_Carrera>
+        <semestres_Carrera rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</semestres_Carrera>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#CarUni2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#CarUni2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#CarreraUniversitaria"/>
+        <PerteneceSede rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Sede1"/>
+        <nombre_Carrera rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingeniería en Mecatrónica</nombre_Carrera>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#EAES1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#EAES1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#EAES"/>
+        <TieneResultado rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Reg1"/>
+        <aula_Eaes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5to &quot;C&quot;</aula_Eaes>
+        <ciudad_Eaes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ambato</ciudad_Eaes>
+        <fecha_Eaes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">05/02/2021</fecha_Eaes>
+        <inscripcion_Eaes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primera</inscripcion_Eaes>
+        <institucion_Eaes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Colegio Bolivar</institucion_Eaes>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#EAES2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#EAES2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#EAES"/>
+        <TieneResultado rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Reg2"/>
+        <institucion_Eaes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Colegio Benigno Malo</institucion_Eaes>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Post1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Post1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Postulacion"/>
+        <TieneUniversidades rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Uni1"/>
+        <id_Postulacion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</id_Postulacion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Reg1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Reg1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Registro"/>
+        <TieneOpciones rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Post1"/>
+        <puntajeEAES_Registro rdf:datatype="http://www.w3.org/2001/XMLSchema#string">895/1000</puntajeEAES_Registro>
+        <tituloBachiller_Registro rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ciencias Exactas</tituloBachiller_Registro>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Reg2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Reg2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Registro"/>
+        <TieneOpciones rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Post1"/>
+        <puntajeEAES_Registro rdf:datatype="http://www.w3.org/2001/XMLSchema#string">910/1000</puntajeEAES_Registro>
+        <tituloBachiller_Registro rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Físico Matemático</tituloBachiller_Registro>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Sede1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Sede1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Sede"/>
+        <SedeTieneCarrerasUniv rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#CarUni1"/>
+        <SedeTieneCarrerasUniv rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#CarUni2"/>
+        <nombre_Sede rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Belisario Quevedo</nombre_Sede>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Uni1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Uni1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Universidad"/>
+        <TieneSedes rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Sede1"/>
+        <ciudad_Universidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Latacunga</ciudad_Universidad>
+        <direccion_Universidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Latacunga Centro</direccion_Universidad>
+        <nombre_Universidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidad de las Fuerzas Armadas ESPE</nombre_Universidad>
+        <provincia_Universidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cotopaxi</provincia_Universidad>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Uni2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Uni2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Universidad"/>
+        <nombre_Universidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidad Técnica de Ambato</nombre_Universidad>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Uni3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Uni3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/darex/ontologies/2021/2/untitled-ontology-28#Universidad"/>
+        <nombre_Universidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escuela Politécnica Nacional</nombre_Universidad>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
